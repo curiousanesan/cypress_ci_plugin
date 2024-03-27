@@ -5,7 +5,12 @@
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open",
-    "test": "cypress run"
+    "test": "cypress run",
+    "test:batch_1": "cypress run --spec 'cypress/e2e/batch_1'",
+    "test:batch_2": "cypress run --spec 'cypress/e2e/batch_2'",
+    "test:batch_3": "cypress run --spec 'cypress/e2e/batch_3'",
+    "test:batch_4": "cypress run --spec 'cypress/e2e/batch_4'",
+    "test:batch_5": "cypress run --spec 'cypress/e2e/batch_5'"
   },
   "keywords": [],
   "author": "",
