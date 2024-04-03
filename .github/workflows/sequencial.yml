@@ -1,5 +1,8 @@
 name: End-to-end tests sequenciais
-on: [push]
+on: 
+  push:
+  schedule:
+    - cron: "0 8 * * *"
 jobs:
   cypress-run:
     runs-on: ubuntu-22.04
